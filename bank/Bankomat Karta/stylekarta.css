@@ -1,0 +1,150 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+.div1
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    font-family: my-standard;
+    display: flex;
+    z-index: 10;
+    position: absolute;
+    margin-top: -300px;
+}
+.btn1
+{
+    margin: 10px;
+    padding: 0;
+    width: 250px;
+    height: 150px;
+    border: none;
+    border: solid 1px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+
+}
+.btn1:hover
+{
+    scale: 1.05;
+    background: linear-gradient(-45deg, #bb63e4, #df5087, #46deb5, #9723d5);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+
+}
+.btn_inside
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.id1
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.name
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pin
+{
+    background-color: darkgrey;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    padding: 3px;
+    width: max-content;
+    margin-bottom: 10px;
+}
+.pasek
+{
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.chip
+{
+    width: 64px;
+    height: 64px;
+    z-index: 10;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -80px;
+}
+.imie
+{
+    font-family: my-standard;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.btnws
+{
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+    display: flex;
+    position: absolute;
+    width: 230px;
+    height: 150px;
+    border: none;
+    border-radius: 10px;
+    opacity: 0;
+
+}
+@font-face
+{
+
+font-family: my-standard;
+
+src:url(my-standard.ttf);
+
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+

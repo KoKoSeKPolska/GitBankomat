@@ -1,0 +1,151 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+.div1
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bankomat
+{
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: 550px;
+    background: linear-gradient(-45deg, #b5f0b4, #9df7af, #7dfaa3, #a4ffa4);
+	background-size: 100% 100%;
+    border: solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ekran
+{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-45deg, #82e4ff, #79defa, #79e0fd, #23d5ab);
+	background-size: 200% 200%;
+    animation: gradient 10s ease infinite;
+    width: 600px;
+    height: 300px;
+    border: solid;
+    border-radius: 10px;
+
+}
+.num_pad
+{
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pinpad
+{
+    margin: 1px;
+    padding: 0;
+    width: 120px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+.btn
+{
+    margin: 1px;
+    padding: 0;
+    width: 120px;
+    min-height: 80px;
+    border-radius: 10px;
+    font-family: my-standard;
+}
+.btn:active
+{
+    scale: 1.1;
+    background-color: rgb(103, 142, 181);
+}
+.ok
+{
+    background-color: greenyellow;
+}
+.stop
+{
+    background-color: red;
+}
+.clear
+{
+    background-color: orange;
+}
+#ekranforma
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+input
+{
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+h1
+{
+    margin: 0;
+    padding: 0;
+    font-family: my-standard;
+}
+.btni
+{
+    display: flex;
+    z-index: 2;
+    position: absolute;
+}
+span
+{
+    margin: 0;
+    padding: 0;
+    font-family: my-standard;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@font-face
+{
+
+font-family: my-standard;
+
+src:url(my-standard.ttf);
+
+}
