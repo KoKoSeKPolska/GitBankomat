@@ -1,0 +1,66 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+.div1
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.divup
+{
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    height: 50px;
+    border-radius: 20px;
+
+}
+.divdown
+{
+    margin: 0;
+    padding: 0;
+}
+h1
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.cash
+{
+    width: 400px;
+    height: 220px;
+    background-color: green;
+    border: solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cashinside
+{
+    width: 130px;
+    height: 60%;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+img
+{
+
+}
